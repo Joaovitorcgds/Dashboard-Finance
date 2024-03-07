@@ -6,15 +6,21 @@ import { createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
 import { Financial } from './pages/Financial/index.jsx';
+import { Login } from './pages/Login/index.jsx';
+import { SignIn } from './pages/signIn/index.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element: <Login/>,
   },
   {
-    path: "/financial",
+    path: ":financeiro",
     element: <Financial/>,
+  },
+  {
+    path: "/signin",
+    element: <SignIn/>,
   },
 ]);
 

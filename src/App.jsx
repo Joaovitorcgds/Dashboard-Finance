@@ -1,12 +1,10 @@
 import styled from "styled-components"
-import { Aside } from "./components/Aside"
-import { Header } from "./components/Header"
+// import { Aside } from "./components/Aside"
+// import { Header } from "./components/Header"
 
 function App() {
   return (
     <DashboardContainer>
-      <Aside/>
-      <Header/>
     </DashboardContainer>
   )
 }
