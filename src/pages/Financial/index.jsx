@@ -3,6 +3,7 @@ import { FinancialContainer } from "./style"
 
 import { Aside } from "../../components/Aside"
 import { Header } from "../../components/Header"
+import { DashboardContainer } from "../../components/DashboardContainer"
 
 import { useForm } from "react-hook-form"
 
@@ -47,15 +48,9 @@ export function Financial(){
   )
 }
 
-const DashboardContainer = styled.main`
-  padding: 0px 35px;
-  background-color: #d9d9d9;
-  display: flex;
-`
-
 const Main = styled.main`
   width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  
 `

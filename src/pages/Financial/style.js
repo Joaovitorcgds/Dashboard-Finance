@@ -1,24 +1,24 @@
 import styled from "styled-components";
 
-export const FinancialContainer = styled.main`
-  padding: 30px 40px;
-  height: 100%;
+export const FinancialContainer = styled.section`
+  padding: 20px 40px 0px 40px;
+  height: 100vh;
   border-radius: 0px 0px 30px 0px;
   background-color: white;
 
   > h1{
     font-size: 25px;
-    margin: 25px 0px;
+    margin-bottom: 25px;
   }
   
   > .formContainer{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-top: 25  px;
+    margin-top: 25px;
   
     > .inputFinancial{
-      padding: 15px 10px;
+      padding: 10px 10px;
       border-radius: 15px;
       border: none;
       background-color: #f5f5f5;
@@ -36,9 +36,6 @@ export const FinancialContainer = styled.main`
         cursor: pointer;
         
       }
-
     }
   }
-
-  
 `
