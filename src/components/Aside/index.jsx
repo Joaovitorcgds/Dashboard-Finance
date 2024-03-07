@@ -11,8 +11,8 @@ export function Aside(){
       </div>
       <span>GERENCIAMENTO</span>
       <nav>
-        <a href="">Transações</a>
         <a href="">Financeiro</a>
+        <a href="">Transações</a>
       </nav>
     </AsideContainer>
   )
